@@ -43,7 +43,7 @@ body {
 }
 
 .container-filme {
-    background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.2)100%), url("../img/capa-house.jpg");;
+    background: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.1)100%), url("../img/capa-house.jpg");;
     background-size: cover;
 
     width: 100%;
@@ -63,12 +63,13 @@ body {
 }
 
 .titulo {
-    font-size: 2rem;
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .sinopse {
     font-size: 18px;
-    margin: 5px 0;
+    margin: 5px 0 35px 0;
 }
 
 .butao {
@@ -78,7 +79,7 @@ body {
     font-weight: bold;
     border: none;
     opacity: 0.8;
-    width: 35%;
+    width: 45%;
     padding: 15px;
     cursor: pointer;
     transition: all 0.2s;
@@ -88,7 +89,16 @@ body {
     opacity: 1;
 }
 
+.box-filmes {
+    margin-top: 3px;
+}
 
+.box-filmes p {
+    font-style: italic;
+    font-size: 16px;
+    font-weight: bold;
+    opacity: 0.9;
+}
 
 
 
