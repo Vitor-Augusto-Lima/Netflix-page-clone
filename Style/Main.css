@@ -3,6 +3,8 @@
     --preto: black;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Neuton:wght@700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -94,7 +96,7 @@ body {
 }
 
 .box-filmes p {
-    font-style: italic;
+    font-family: 'Neuton', serif;
     font-size: 16px;
     font-weight: bold;
     opacity: 0.9;
